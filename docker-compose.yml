@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  waline:
+    image: waline
+    build:
+      context: ./0/debian
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8360:8360
