@@ -6,7 +6,7 @@
 # Supported tags and respective `Dockerfile` links
 
 - [`0, 0-slim, slim, latest`](https://github.com/uuznn/docker-waline/blob/main/0/debian/Dockerfile)
-- [`0-alpine, alpine`](https://github.com/uuznn/docker-waline/blob/main/0/debian/Dockerfile)
+- [`0-alpine, alpine`](https://github.com/uuznn/docker-waline/blob/main/0/alpine/Dockerfile)
 
 # Quick reference (cont.)
 
