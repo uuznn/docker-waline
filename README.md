@@ -5,8 +5,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`0, 0-slim, slim, latest`](https://github.com/uuznn/docker-waline/blob/main/0/debian/Dockerfile)
-- [`0-alpine, alpine`](https://github.com/uuznn/docker-waline/blob/main/0/alpine/Dockerfile)
+- [`latest`](https://github.com/uuznn/docker-waline/blob/main/0/debian/Dockerfile)
+- [`alpine`](https://github.com/uuznn/docker-waline/blob/main/0/alpine/Dockerfile)
 
 # Quick reference (cont.)
 
@@ -63,4 +63,4 @@ Before use SQLite as storage, you should download [waline.sqlite](https://github
 
 # Build status
 
-![CI](https://github.com/uuznn/docker-waline/workflows/ci/badge.svg?branch=main)
+![Release](https://github.com/uuznn/docker-waline/workflows/docker-release/badge.svg?branch=main)
