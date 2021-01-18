@@ -1,17 +1,17 @@
 # Quick reference
 
 - Maintained by: [uuznn](https://github.com/uuznn/docker-waline) (not the [Waline Team](https://github.com/lizheming/waline))
-- Where to get help: [Documentation](https://waline.js.org/), [Telegram](https://t.me/uuznn), [Discussions](https://github.com/lizheming/waline/discussions)
+- Where to get help: [Waline Documentation](https://waline.js.org/), [Telegram](https://t.me/uuznn), [GitHub Discussions](https://github.com/lizheming/waline/discussions)
 
 # Supported tags and respective `Dockerfile` links
 
-- [`latest`](https://github.com/uuznn/docker-waline/blob/main/0/debian/Dockerfile)
-- [`alpine`](https://github.com/uuznn/docker-waline/blob/main/0/alpine/Dockerfile)
+- [`latest`](https://github.com/uuznn/docker-waline/blob/main/Dockerfile)
+- [`alpine`](https://github.com/uuznn/docker-waline/blob/main/Dockerfile.alpine)
 
 # Quick reference (cont.)
 
 - Where to file issues: https://github.com/uuznn/docker-waline
-- Supported architectures: `amd64`, `arm64`
+- Supported architectures: `amd64`, `arm64`, `arm/v7`
 
 # Waline
 
@@ -21,7 +21,7 @@ A simple comment system with backend support fork from [Valine](https://valine.j
 
 # How to use this image
 
-This will start a Waline instance listening on the default Ghost port of `8360`.
+This will start a Waline instance listening on the default Waline port of `8360`.
 
 ```bash
 docker pull uuznn/waline:latest
@@ -63,4 +63,4 @@ Before use SQLite as storage, you should download [waline.sqlite](https://github
 
 # Build status
 
-![Release](https://github.com/uuznn/docker-waline/workflows/docker-release/badge.svg?branch=main)
+![[docker] CI for releases](https://github.com/uuznn/docker-waline/workflows/%5Bdocker%5D%20CI%20for%20releases/badge.svg)
